@@ -52,7 +52,7 @@ const default_configuration = {
           links: [
             {
               name: "Metacouncil",
-              url: "https://www.metacouncil.com",
+              url: "https://metacouncil.com",
               icon: "forms",
               icon_color: palette.red,
             },

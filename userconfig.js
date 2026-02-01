@@ -17,14 +17,6 @@ const default_configuration = {
     format: "k:i p",
     icon_color: palette.maroon,
   },
-  additionalClocks: [
-    {
-      label: "UK",
-      timezone: "Europe/London",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
-  ],
   disabled: [],
   localIcons: true,
   localFonts: true,
@@ -59,7 +51,7 @@ const default_configuration = {
             {
               name: "karakeep",
               url: "https://links.extrasolar.cc",
-              icon: "IconBookmarkFilled",
+              icon: "bookmark",
               icon_color: palette.lavender,
             },
             {
@@ -181,7 +173,7 @@ const default_configuration = {
             {
               name: "123 reg",
               url: "https://account.123-reg.co.uk/products",
-              icon: "number-123",
+              icon: "world-minus",
               icon_color: palette.green,
             },
             {

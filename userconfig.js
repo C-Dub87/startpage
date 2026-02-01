@@ -17,6 +17,26 @@ const default_configuration = {
     format: "k:i p",
     icon_color: palette.maroon,
   },
+  additionalClocks: [
+    {
+      label: "Tokyo",
+      timezone: "Asia/Tokyo",
+      format: "h:i",
+      icon_color: palette.red,
+    },
+    {
+      label: "Shanghai",
+      timezone: "Asia/Shanghai",
+      format: "h:i",
+      icon_color: palette.red,
+    },
+    {
+      label: "Toronto",
+      timezone: "America/Toronto",
+      format: "h:i",
+      icon_color: palette.sky,
+    },
+  ],
   disabled: [],
   localIcons: true,
   localFonts: true,

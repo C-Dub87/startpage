@@ -19,21 +19,12 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "UA",
-      timezone: "Europe/Kyiv",
+      label: "UK",
+      timezone: "Europe/London",
       format: "h:i",
       icon_color: palette.peach,
     },
   ],
-  search: {
-    engines: {
-      d: ["https://kagi.com/search?q=%s", "Kagi"],
-    },
-    default: "d",
-  },
-  keybindings: {
-    "s": "search-bar",
-  },
   disabled: [],
   localIcons: true,
   localFonts: true,
@@ -41,7 +32,7 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "personal",
+      name: "me",
       background_url: "src/img/banners/banner_02.gif",
       categories: [
         {
@@ -54,16 +45,28 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "famiboards;",
+              name: "famiboards",
               url: "https://famiboards.com",
               icon: "device-nintendo",
               icon_color: palette.red,
             },
             {
-              name: "reddit;",
+              name: "reddit",
               url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.peach,
+            },
+            {
+              name: "karakeep",
+              url: "https://links.extrasolar.cc",
+              icon: "IconBookmarkFilled",
+              icon_color: palette.lavender,
+            },
+            {
+              name: "koffan",
+              url: "https://shopping.extrasolar.cc",
+              icon: "list",
+              icon_color: palette.pink,
             },
           ],
         },
@@ -122,23 +125,6 @@ const default_configuration = {
               url: "https://ticktick.com/webapp/",
               icon: "list-check",
               icon_color: palette.yellow,
-            },
-          ],
-        },
-        {
-          name: "lifestyle",
-          links: [
-            {
-              name: "karakeep",
-              url: "https://links.extrasolar.cc",
-              icon: "IconBookmarkFilled",
-              icon_color: palette.lavender,
-            },
-            {
-              name: "koffan",
-              url: "https://shopping.extrasolar.cc",
-              icon: "list",
-              icon_color: palette.pink,
             },
           ],
         },

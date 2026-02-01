@@ -31,31 +31,31 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "metacouncil",
+              name: "Metacouncil",
               url: "https://www.metacouncil.com",
               icon: "forms",
               icon_color: palette.red,
             },
             {
-              name: "famiboards",
+              name: "Famiboards",
               url: "https://famiboards.com",
               icon: "device-nintendo",
               icon_color: palette.red,
             },
             {
-              name: "reddit",
+              name: "Reddit",
               url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.peach,
             },
             {
-              name: "karakeep",
+              name: "Karakeep",
               url: "https://links.extrasolar.cc",
               icon: "bookmark",
               icon_color: palette.lavender,
             },
             {
-              name: "koffan",
+              name: "Koffan",
               url: "https://shopping.extrasolar.cc",
               icon: "list",
               icon_color: palette.pink,
@@ -66,25 +66,25 @@ const default_configuration = {
           name: "reading",
           links: [
             {
-              name: "kagi news",
+              name: "Kagi News",
               url: "https://news.kagi.com/uk/latest",
               icon: "news",
               icon_color: palette.mauve,
             },
             {
-              name: "pivot to ai",
+              name: "Pivot to AI",
               url: "https://pivot-to-ai.com",
               icon: "paperclip",
               icon_color: palette.blue,
             },
             {
-              name: "disconnect",
+              name: "Disconnect",
               url: "https://disconnect.blog",
               icon: "plug-connected",
               icon_color: palette.yellow,
             },
             {
-              name: "bbc news",
+              name: "BBC News",
               url: "https://www.bbc.co.uk/news",
               icon: "article",
               icon_color: palette.red,
@@ -95,25 +95,25 @@ const default_configuration = {
           name: "productivity",
           links: [
             {
-              name: "proton docs",
+              name: "Proton Docs",
               url: "https://docs.proton.me",
               icon: "file-dots",
               icon_color: palette.sky,
             },
             {
-              name: "notes",
+              name: "Notes",
               url: "https://notes.extrasolar.cc",
               icon: "note",
               icon_color: palette.blue,
             },
             {
-              name: "mural",
+              name: "Mural",
               url: "https://app.mural.co",
               icon: "chalkboard",
               icon_color: palette.red,
             },
             {
-              name: "ticktick",
+              name: "TickTick",
               url: "https://ticktick.com/webapp/",
               icon: "list-check",
               icon_color: palette.yellow,
@@ -130,25 +130,25 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "sonarr",
+              name: "Sonarr",
               url: "https://sonarr.extrasolar.cc",
               icon: "device-tv-old",
               icon_color: palette.blue,
             },
             {
-              name: "radarr",
+              name: "Radarr",
               url: "https://radarr.extrasolar.cc",
               icon: "movie",
               icon_color: palette.yellow,
             },
             {
-              name: "youtarr",
+              name: "Youtarr",
               url: "https://youtarr.extrasolar.cc/downloads",
               icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
-              name: "lidarr",
+              name: "Lidarr",
               url: "https://lidarr.extrasolar.cc",
               icon: "music",
               icon_color: palette.green,
@@ -165,7 +165,7 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "cloudflare dashboard",
+              name: "Cloudflare Dashboard",
               url: "https://dash.cloudflare.com",
               icon: "brand-cloudflare",
               icon_color: palette.yellow,
@@ -177,13 +177,13 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "hetzner",
+              name: "Hetzner Console",
               url: "https://console.hetzner.com/projects",
               icon: "box",
               icon_color: palette.red,
             },
             {
-              name: "extrasolar control panel",
+              name: "Extrasolar Control Panel",
               url: "https://www.extrasolar.cc",
               icon: "rocket",
               icon_color: palette.blue,

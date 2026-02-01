@@ -210,17 +210,6 @@ const default_configuration = {
               icon: "rocket",
               icon_color: palette.blue,
             },
-          ],
-        },
-        {
-          name: "authentication",
-          links: [
-            {
-              name: "log out of cloudflare",
-              url: "https://sb71.cloudflareaccess.com/cdn-cgi/access/logout",
-              icon: "brand-cloudflare",
-              icon_color: palette.red,
-            },
             {
               name: "VoidAuth",
               url: "https://auth.extrasolar.cc/",

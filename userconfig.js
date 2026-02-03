@@ -147,35 +147,6 @@ const default_configuration = {
       background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
-          name: "media",
-          links: [
-            {
-              name: "Sonarr",
-              url: "https://sonarr.extrasolar.cc",
-              icon: "device-tv-old",
-              icon_color: palette.blue,
-            },
-            {
-              name: "Radarr",
-              url: "https://radarr.extrasolar.cc",
-              icon: "movie",
-              icon_color: palette.yellow,
-            },
-            {
-              name: "Youtarr",
-              url: "https://youtarr.extrasolar.cc/downloads",
-              icon: "brand-youtube",
-              icon_color: palette.red,
-            },
-            {
-              name: "Lidarr",
-              url: "https://lidarr.extrasolar.cc",
-              icon: "music",
-              icon_color: palette.green,
-            },
-          ],
-        },
-        {
           name: "settings",
           links: [
             {
